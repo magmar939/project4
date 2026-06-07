@@ -43,23 +43,19 @@ h1 {
 
 }
 
-nav {
 
-	width: 70%;
+li a {
 
-}
-
-
-li {
-
+	display: block;
+	width: 80%;
 	background-color: #870810;
 	color: #eeede7;
-	padding: 10px;
-	justify-content: center;
+	padding: 10px 20px;
+	text-align: center;
 
 }
 
-li:hover {
+li a:hover {
 
 	background-color: #eeede7;
 	color: #870810;
@@ -132,7 +128,8 @@ li:hover {
 	gap: 15px;
 	flex-wrap: wrap;
 	background-color: #202030;
-	justify-content: center;
+	justify-content: space-evenly;
+	width: 50em;
 
 }
 
@@ -146,6 +143,7 @@ li:hover {
 	flex-wrap: wrap;
 	background-color: #202030;
 	justify-content: space-evenly;
+	width: 50em;
 
 }
 
