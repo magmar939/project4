@@ -7,8 +7,7 @@ body {
   	font-family: "Fanwood Text", serif;
   	font-weight: 400;
   	font-style: normal;
-
-  	border: 10px solid #202030;
+  	border: 10px double #202030;
 
 }
 
@@ -18,6 +17,19 @@ h2 {
 
 }
 
+header {
+
+	display: grid;
+	place-items: center;
+}
+
+footer {
+
+	text-align: center;
+
+}
+
+
 h1 {
 
 	color: #870810;
@@ -26,10 +38,14 @@ h1 {
 	font-weight: 400;
   	font-style: normal;
   	font-size: 100px;
-
   	margin-bottom: 0;
-
   	text-align: center;
+
+}
+
+nav {
+
+	width: 70%;
 
 }
 
@@ -39,14 +55,17 @@ li {
 	background-color: #870810;
 	color: #eeede7;
 	padding: 10px;
+	justify-content: center;
 
 }
 
-li:hover{
+li:hover {
 
 	background-color: #eeede7;
+	color: #870810;
 
 }
+
 
 .page{
 
@@ -54,27 +73,52 @@ li:hover{
 	margin: 20;
 	border: 5px solid #202030;
 	width: 70%;
+	max-width: 50em;
+	line-height: 1.5em;
 	margin: 20;
 	display: flex-wrap;
 	padding: 20px;
 
 }
 
-.imageframe{
+.frameleft{
 
 	width: 150px;
 	height: 200px;
 	border: 3px solid #202030;
-	border-radius: 10px;
+	border-radius: 50px;
 	overflow: hidden;
+	float: left;
+	margin: 15px;
 
 }
 
-.imageframe img{
+.frameleft img{
 
 	width: 100%;
   	height: 100%;
-  	object-fit: cover;    /* Crops the image proportionally to fill the space */
+  	object-fit: cover;
+  	object-position: center;
+
+}
+
+.frameright{
+
+	width: 150px;
+	height: 200px;
+	border: 3px solid #202030;
+	border-radius: 50px;
+	overflow: hidden;
+	float: right;
+	margin: 15px;
+
+}
+
+.frameright img{
+
+	width: 100%;
+  	height: 100%;
+  	object-fit: cover;
   	object-position: center;
 
 }
@@ -88,12 +132,11 @@ li:hover{
 	gap: 15px;
 	flex-wrap: wrap;
 	background-color: #202030;
-	width: 70%;
 	justify-content: center;
 
 }
 
-.bottomnav{
+.bottomnav {
 
 	display: flex;
 	list-style: none;
@@ -102,7 +145,12 @@ li:hover{
 	gap: 15px;
 	flex-wrap: wrap;
 	background-color: #202030;
-	width: 70%;
 	justify-content: space-evenly;
+
+}
+
+.fancypara {
+
+	text-align: center;
 
 }
