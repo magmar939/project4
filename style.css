@@ -23,6 +23,8 @@ header {
 	place-items: center;
 }
 
+
+
 footer {
 
 	text-align: center;
@@ -43,10 +45,15 @@ h1 {
 
 }
 
+li {
+
+	margin: 5px 30px;
+
+}
+
 
 li a {
 
-	display: block;
 	width: 80%;
 	background-color: #870810;
 	color: #eeede7;
@@ -119,6 +126,7 @@ li a:hover {
 
 }
 
+
 .topnav {
 
 	display: flex;
@@ -129,7 +137,6 @@ li a:hover {
 	flex-wrap: wrap;
 	background-color: #202030;
 	justify-content: space-evenly;
-	width: 50em;
 
 }
 
@@ -143,7 +150,6 @@ li a:hover {
 	flex-wrap: wrap;
 	background-color: #202030;
 	justify-content: space-evenly;
-	width: 50em;
 
 }
 
